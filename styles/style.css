@@ -1,0 +1,58 @@
+/* Mulish Font */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* shared styles */
+:root {
+    --primary-color: #FF5400;
+    --secondary-color: #131318;
+    --third-color: #424247;
+}
+
+* {
+    font-family: "Mulish", sans-serif;
+    background-color: cadetblue;
+}
+
+/* Header */
+header {
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Header Left Column */
+.col1 {
+    color: var(--secondary-color);
+    font-size: 36px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1 > img {
+    /* not used */
+}
+.col1 > div > span {
+    color: var(--primary-color);
+}
+
+/* Header Right Column */
+.col2 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.col2_txt1 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.col2_txt2 {
+    color: var(--third-color);
+}
+
+/* Main */
+/* Footer */
