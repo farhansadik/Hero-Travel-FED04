@@ -15,7 +15,7 @@
 
 /* Header */
 header {
-    margin: 50px 100px;
+    margin: 50px 135px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -55,4 +55,92 @@ header {
 }
 
 /* Main */
+main {
+    margin: 50px 135px;
+}
+
+/* Main Section 1 */
+.ms1 {
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ms1_txt1, #ms1_txt2 {
+    color: white;
+    font-size: 65px;
+    font-weight: 800;
+}
+#ms1_txt1 {
+    margin-top: 105px;
+    margin-bottom: 25px;
+}
+#ms1_txt2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Main Section 1 - Find Now */
+.ms1_find {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 25px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-bottom: 48px;
+}
+.ms1_find1, .ms1_find2, .ms1_find3, .ms1_find4 {
+    background-color: white;
+    color: rgba(19, 19, 24, 0.50);
+    height: 30px;
+    border-radius: 8px;
+    padding: 15px 0px 15px 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.ms1_find1 {padding-right: 85px;}
+.ms1_find2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ms1_find2 > svg {
+    padding-left: 75px;
+    padding-right: 15px;
+}
+.ms1_find3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ms1_find3 > svg {
+    padding-left: 75px;
+    padding-right: 15px;
+}
+.ms1_find4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+.ms1_find4 > h3 { padding-right: 35px; }
+.ms1_find4 > svg {
+    padding-left: 20px;
+    padding-right: 8px;
+}
+
+/* Main Section 2 */
+/* Main Section 3 */
+/* Main Section 4 */
+/* Main Section 5 */
+
 /* Footer */

@@ -5,13 +5,13 @@
 
 
 **Goal:**
-- [ ] Header Section
+- [x] Header Section
 - [ ] Main Section
-- [ ] Main Section 1 (Top)
+- [x] Main Section 1 (Top)
 - [ ] Main Section 2 (Choose Your Destination)
 - [ ] Main Section 3 (Why Choose Us)
 - [ ] Main Section 4 (Deals & Discounts)
-- [ ] Main  Section 4 (A Simplpe Perfect Place To Get Lost)
+- [ ] Main Section 5 (A Simplpe Perfect Place To Get Lost)
 - [ ] Footer Section
 - [ ] Footer Section 1 (Top)
 - [ ] Footer Section 2 (Bottom)
@@ -21,4 +21,9 @@
 
 
 **Issues:**
- 
+1. Background image stayed fixed while zooming out page. <br>
+Fix:
+```css
+background-repeat: no-repeat;
+background-size: 100% 100%;
+```
