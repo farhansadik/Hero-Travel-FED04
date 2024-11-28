@@ -10,7 +10,7 @@
 
 * {
     font-family: "Mulish", sans-serif;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 /* Header */
@@ -185,7 +185,8 @@ main {
 
 /* Main Section 3 */
 .ms3 {
-    border: 2px solid white;
+    /* not used */
+    margin-bottom: 100px;
 }
 
 .ms3 > h3 {
@@ -293,6 +294,70 @@ main {
 }
 
 /* Main Section 4 */
+.ms4 {
+    /* not used */
+}
+.ms4 > h3 {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+}
+.ms4 > p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.ms4_card_large_txt {
+    color: var(--secondary-color);
+    font-size: 25px;
+    font-weight: 800;
+}
+.ms4_card_pera {
+    color: #5A5A5D;
+    font-size: 16px;
+}
+/* main section 4 row 1 */
+.md4_row1 {
+    display: flex;
+    gap: 25px;
+}
+
+/* main section 4 row 1 card 1 */
+.md4_card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px 32px 32px;
+}
+
+/* main section 4 row 1 card 2 */
+.md4_card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 55px 32px 32px;
+}
+
+/* main section 4 row 2 */
+.md4_row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* main section 4 row 2 card 3 */
+.md4_card3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px 32px 32px;
+    width: 41%;
+}
+
 /* Main Section 5 */
 
 /* Footer */

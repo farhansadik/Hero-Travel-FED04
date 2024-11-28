@@ -10,7 +10,7 @@
 - [x] Main Section 1 (Top)
 - [x] Main Section 2 (Our Popular Tours)
 - [x] Main Section 3 (Choose Your Destination)
-- [ ] Main Section 4 (Why Choose Us)
+- [x] Main Section 4 (Why Choose Us)
 - [ ] Main Section 5 (Deals & Discounts)
 - [ ] Main Section 6 (A Simplpe Perfect Place To Get Lost)
 - [ ] Footer Section
