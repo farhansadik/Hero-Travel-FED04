@@ -133,12 +133,53 @@ main {
     background-color: var(--primary-color);
 }
 .ms1_find4 > h3 { padding-right: 35px; color: white; }
-.ms1_find4 > svg {
-    padding-left: 20px;
-    padding-right: 8px;
-}
+.ms1_find4 > svg { padding-left: 20px; padding-right: 8px; }
 
 /* Main Section 2 */
+.ms2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 0px;
+    gap: 50px;
+}
+
+/* main section - column 1 */
+.ms2_col1 {
+    color: var(--third-color);
+    font-size: 16px;
+}
+.ms2_col1 > h3 {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.ms2_col1 p {
+    margin-bottom: 25px;
+}
+.ms2_col1 ul li {
+    margin-bottom: 15px;
+}
+.ms2_col1 > button {
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 0px;
+    padding: 14px 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: var(--primary-color);
+}
+
+/* main section - column 2 */
+.ms2_col2 {
+}
+.ms2_col2 img {
+    height: inherit;
+    width: inherit;
+}
+
 /* Main Section 3 */
 /* Main Section 4 */
 /* Main Section 5 */
