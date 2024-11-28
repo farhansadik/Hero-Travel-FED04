@@ -9,7 +9,7 @@
 - [ ] Main Section
 - [x] Main Section 1 (Top)
 - [x] Main Section 2 (Our Popular Tours)
-- [ ] Main Section 3 (Choose Your Destination)
+- [x] Main Section 3 (Choose Your Destination)
 - [ ] Main Section 4 (Why Choose Us)
 - [ ] Main Section 5 (Deals & Discounts)
 - [ ] Main Section 6 (A Simplpe Perfect Place To Get Lost)
@@ -19,7 +19,7 @@
 - [ ] Make it responsive for mobile devices
  
 **Live View** <br>
-
+Not installed yet.
 
 **Issues:**
 1. Background image stayed fixed while zooming out page. <br>

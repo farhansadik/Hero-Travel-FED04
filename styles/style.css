@@ -10,7 +10,7 @@
 
 * {
     font-family: "Mulish", sans-serif;
-    /* background-color: cadetblue; */
+    background-color: cadetblue;
 }
 
 /* Header */
@@ -69,6 +69,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    display: none;
 }
 
 #ms1_txt1, #ms1_txt2 {
@@ -174,6 +176,7 @@ main {
 
 /* main section - column 2 */
 .ms2_col2 {
+    /* not used */
 }
 .ms2_col2 img {
     height: inherit;
@@ -181,6 +184,114 @@ main {
 }
 
 /* Main Section 3 */
+.ms3 {
+    border: 2px solid white;
+}
+
+.ms3 > h3 {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+.ms3 > p {
+    color: var(--third-color);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* main section 3 image */
+.ms3_image_section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#maldives, #indonesia, #srilanka, #north_america, #kashmir, #bangladesh, #bandarban {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* main section 3 image division 1 */
+.ms3_img_sec_div1 {
+    display: flex;
+    gap: 25px;
+    height: 300px;
+    width: auto;
+}
+#maldives {
+    width: 50%;
+    height: inherit;
+    border-radius: 16px;
+    background-image: url(/Images/maldives.png);
+    background-size: 100% 100%;
+}
+#indonesia {
+    width: 50%;
+    height: inherit;
+    border-radius: 16px;
+    background-image: url(/Images/indonesia.png);
+    background-size: 100% 100%;
+}
+
+/* main section 3 image division 2 */
+.ms3_img_sec_div2 {
+    display: flex;
+    gap: 25px;
+    height: 285px;
+    width: auto;
+}
+#srilanka {
+    width: 30%;
+    height: inherit;
+    border-radius: 16px;
+    background-image: url(/Images/srilanka.png);
+    background-size: 100% 100%;
+}
+#north_america {
+    width: 40%;
+    height: inherit;
+    border-radius: 16px;
+    background-image: url(/Images/north\ america.png);
+    background-size: 100% 100%;
+}
+#kashmir {
+    width: 30%;
+    height: inherit;
+    border-radius: 16px;
+    background-image: url(/Images/kashmir.png);
+    background-size: 100% 100%;
+}
+
+/* main section 3 image division 3 */
+.ms3_img_sec_div3 {
+    display: flex;
+    gap: 25px;
+    height: 300px;
+    width: auto;
+}
+#bangladesh {
+    width: 50%;
+    height: inherit;
+    border-radius: 16px;
+    background-image: url(/Images/bangladesh.png);
+    background-size: 100% 100%;
+}
+#bandarban {
+    width: 50%;
+    height: inherit;
+    border-radius: 16px;
+    background-image: url(/Images/bandarban.png);
+    background-size: 100% 100%;
+}
+
 /* Main Section 4 */
 /* Main Section 5 */
 
