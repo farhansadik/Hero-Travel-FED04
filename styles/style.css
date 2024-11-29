@@ -651,3 +651,48 @@ footer {
 .fs2 > svg {margin-top: 30px; margin-bottom: 50px;}
 .fs2 > hr {margin-bottom: 50px; border: 0px; height: 2px; width: 50%; background: rgba(19, 19, 24, 0.10);} 
 .fs2 > div {color: var(--secondary-color); font-family: Inter; font-size: 16px; font-weight: 300;}
+
+/* Responsible design for mobile devices */
+@media screen and (max-width: 576px) {
+    
+    /* Header */
+    header {margin: 18px 20px;}
+    .header_col1 {font-size: 25px;}
+    .header_col1 > img {height: 80%;}
+    .header_col2 {display: none;}
+
+    /* Main Section */
+    main {
+        margin: 18px 20px;
+    }
+
+    /* Main Section 1 */
+    .ms1 {
+        background-size: initial;
+        background-position: center;
+    }
+    #ms1_txt1 {font-size: 22px; margin-bottom: 0px; margin-top: 30px;}
+    #ms1_txt2 {font-size: 15px; }   
+
+    .ms1_find {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        padding: 0px;
+        width: 80%;
+        padding: 16px;
+    }
+
+    .ms1_find1, .ms1_find2, .ms1_find3, .ms1_find4 {
+        padding: 10px 0px 10px 10px;
+    }
+    .ms1_find1 {width: 100%;}
+    .ms1_find2 {width: 100%;}
+    .ms1_find3 {width: 100%;}
+    .ms1_find4 {width: 100%; justify-content: center;}
+
+    /* Main Section 2 */
+
+}
