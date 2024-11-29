@@ -1,6 +1,9 @@
 /* Mulish Font */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* shared styles */
 :root {
     --primary-color: #FF5400;
@@ -464,4 +467,102 @@ main {
 }
 
 /* Main Section 6 */
+.ms6 {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    height: 500px;
+}
+
+/* main section 6 column 1 */
+.ms6_flex_col1 {
+    width: 50%;
+} 
+.ms6_flex_col1 > h3 {margin-bottom: 0px; var(--secondary-color); font-size: 40px; font-weight: 800;}
+.ms6_flex_col1 > p {margin-top: 24px; margin-bottom: 24px; #5A5A5D; font-size: 20px;}
+.ms6_flex_col1 > ul li {margin-bottom: 16px;color: #131318; font-size: 20px; font-weight: 700;}
+.ms6_flex_col1 > button {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: var(--primary-color);
+    border: 0px;
+    border-radius: 8px;
+    padding: 14px 42px;
+    margin-top: 30px;
+}
+
+/* main section 6 column 2 */
+.ms6_flex_col2 {
+    background-image: url(/Images/Group\ 40089.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 0px 25px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* middle text */
+#ms6_flex_col2_row1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: center;
+}
+/* bottom */
+#ms6_flex_col2_row2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    top: 35%;
+}
+/* controls */
+#ms6_vc_row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+/* controls items 1 */
+#ms6_vc_row1_items_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+#ms6_vc_row1_items_1 > div {
+    color: #F3F3F3;
+    font-family: Inter;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 12px;
+}
+/* controls items 2 */
+#ms6_vc_row1_items_2 {
+    display: flex;
+    gap: 16px;
+}
+/* loop */
+#ms6_vc_row2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+#vc_longline {
+    width: inherit;
+    height: 4px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+#vc_sortline {
+    width: 10%;
+    height: 4px;
+    border-radius: 8px;
+    background-color: white;
+}
+
 /* Footer */
+/* Footer Section 1 */
+/* Footer Section 2 */

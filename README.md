@@ -12,7 +12,7 @@
 - [x] Main Section 3 (Choose Your Destination)
 - [x] Main Section 4 (Why Choose Us)
 - [x] Main Section 5 (Deals & Discounts)
-- [ ] Main Section 6 (A Simplpe Perfect Place To Get Lost)
+- [x] Main Section 6 (A Simplpe Perfect Place To Get Lost)
 - [ ] Footer Section
 - [ ] Footer Section 1 (Top)
 - [ ] Footer Section 2 (Bottom)
