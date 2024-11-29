@@ -13,13 +13,13 @@
 - [x] Main Section 4 (Why Choose Us)
 - [x] Main Section 5 (Deals & Discounts)
 - [x] Main Section 6 (A Simplpe Perfect Place To Get Lost)
-- [ ] Footer Section
-- [ ] Footer Section 1 (Top)
+- [x] Footer Section
+- [x] Footer Section 1 (Top)
 - [x] Footer Section 2 (Bottom)
 - [ ] Make it responsive for mobile devices
  
 **Live View** <br>
-Not installed yet.
+<https://hero-travel-fed04.netlify.app/>
 
 **Issues:**
 1. Background image stayed fixed while zooming out page. <br>
