@@ -32,6 +32,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 16px;
 }
 
 .header_col1 > img {
@@ -564,5 +565,30 @@ main {
 }
 
 /* Footer */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
 /* Footer Section 1 */
 /* Footer Section 2 */
+.fs2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fs2 > p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.fs2 > svg {margin-top: 30px; margin-bottom: 50px;}
+.fs2 > hr {margin-bottom: 50px; border: 0px; height: 2px; width: 50%; background: rgba(19, 19, 24, 0.10);} 
+.fs2 > div {
+    color: var(--secondary-color); 
+    font-family: Inter; 
+    font-size: 16px; 
+    font-weight: 300;
+}

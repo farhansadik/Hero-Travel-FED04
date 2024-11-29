@@ -6,7 +6,7 @@
 
 **Goal:**
 - [x] Header Section
-- [ ] Main Section
+- [x] Main Section
 - [x] Main Section 1 (Top)
 - [x] Main Section 2 (Our Popular Tours)
 - [x] Main Section 3 (Choose Your Destination)
@@ -15,7 +15,7 @@
 - [x] Main Section 6 (A Simplpe Perfect Place To Get Lost)
 - [ ] Footer Section
 - [ ] Footer Section 1 (Top)
-- [ ] Footer Section 2 (Bottom)
+- [x] Footer Section 2 (Bottom)
 - [ ] Make it responsive for mobile devices
  
 **Live View** <br>
