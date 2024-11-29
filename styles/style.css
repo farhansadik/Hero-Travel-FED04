@@ -69,8 +69,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    display: none;
 }
 
 #ms1_txt1, #ms1_txt2 {
@@ -359,5 +357,111 @@ main {
 }
 
 /* Main Section 5 */
+.ms5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.ms5 > h3 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.ms5 > p {
+    margin-bottom: 50px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    text-align: center;
+}
+
+/* main section 5 card 1 */
+.ms5_card1 {
+    background-image: url(/Images/Group\ 39.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 55px;
+    margin-bottom: 25px;
+}
+
+/* main section 5 card elements */
+.ms5_card_div {
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    width: 35%;
+}
+
+.ms5_card_div > div {display: flex;  gap: 8px;}
+.ms5_card_div > div > div {margin-right: 24px; color: #5A5A5D; font-size: 16px;}
+.ms5_card_div > h3 {color: var(--secondary-color); font-size: 24px; font-weight: 800;}
+.ms5_card_div > p {color: #5A5A5D; font-size: 16px;}
+#ms5_card_div_price {color: var(--primary-color); font-size: 20px;font-weight: 800;}
+.ms5_card_div > button {
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 14px 25px;
+}
+
+/* main section 5 card 2 */
+.ms5_card2 {
+    background-image: url(/Images/Group\ 40.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 55px;
+    margin-bottom: 25px;
+}
+
+/* main section 5 card 3 */
+.ms5_card3 {
+    background-image: url(/Images/Group\ 39.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 55px;
+}
+
+/* div created for button on cente */
+.ms5_button_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms5_button_section > button {
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 14px 22px;
+    margin-top: 50px;
+}
+
+/* Main Section 6 */
 /* Footer */
