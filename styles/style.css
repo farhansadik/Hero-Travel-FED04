@@ -722,41 +722,22 @@ footer {
     .md4_card3 {width: auto;}
 
     /* Main Section 5 */
-    .ms5 {
-        margin-top: 25px;   
-    }
-
-    .ms5 > h3 {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-
+    .ms5 {margin-top: 25px;}
+    .ms5 > h3 {font-size: 20px; margin-bottom: 20px;}
     .ms5 > p {
         font-size: 14px;
         margin-top: 0px;
         margin-bottom: 20px;
     }
 
-    .ms5_card1 {
-        background-size: initial;
-        background-position: center;
-        border-radius: 16px;
-        justify-content: center;
-        align-items: flex-end;
-        padding-right: 0px;
-        height: 500px;
-    }
-
+    /* main section 5 card elements */
     .ms5_card_div {
         width: 75%;
         padding: 24px;
         margin-bottom: 24px;
     }
 
-    .ms5_card_div > div {
-        margin-bottom: 0px;
-        gap: 5px;
-    }
+    .ms5_card_div > div {margin-bottom: 0px; gap: 5px;}
     .ms5_card_div > h3 {
         margin-top: 10px; 
         margin-bottom: 10px;
@@ -768,7 +749,6 @@ footer {
         margin-bottom: 0px;
         font-size: 14px;
     }
-    
     .ms5_card_div > div > div {
         margin-right: 0px; 
         font-size: 12px;
@@ -776,12 +756,22 @@ footer {
         align-items: center;
         font-weight: 700;
     }
-
     #ms5_card_div_price {font-size: 16px;}
     .ms5_card_div > button {
         font-size: 18px;
         font-weight: 700;
         padding: 12px 18px;
+    }
+
+    /* main section 5 cards */
+    .ms5_card1 {
+        background-size: initial;
+        background-position: center;
+        border-radius: 16px;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 0px;
+        height: 500px;
     }
 
     .ms5_card2 {
@@ -803,7 +793,36 @@ footer {
         padding-right: 0px;
         height: 500px;
     }
-
     .ms5_button_section {display: none;}
 
+    /* Main Section 6 */
+    .ms6 {
+        flex-direction: column;
+        gap: 0px;
+        height: auto;
+    }
+
+    .ms6_flex_col1 {width: 100%;}
+    .ms6_flex_col1 > h3 {font-size: 20px;}
+    .ms6_flex_col1 > p {font-size: 16px;}
+    .ms6_flex_col1 > ul li {font-size: 16px;}
+    .ms6_flex_col1 > button {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .ms6_flex_col2 {
+        width: auto;
+        height: 250px;
+        padding: 0px 15px 0px 15px;
+        border: 2px solid red;
+    }
+    #ms6_flex_col2_row1 {font-size: 18px; position: relative; top: 10px;}
+    #ms6_flex_col2_row2 {top: 26%;gap: 10px;}
+
+    /* display none */
+    .ms3{display: none;}
+    .ms4{display: none;}
+    .ms5{display: none;}
 }
