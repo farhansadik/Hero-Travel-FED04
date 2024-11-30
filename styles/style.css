@@ -187,7 +187,6 @@ main {
 
 /* Main Section 3 */
 .ms3 {
-    /* not used */
     margin-bottom: 100px;
 }
 
@@ -694,5 +693,117 @@ footer {
     .ms1_find4 {width: 100%; justify-content: center;}
 
     /* Main Section 2 */
+    .ms2 {flex-direction: column;}
+    .ms2_col2 img {width: 100%; height: 100%;}
+
+    /* Main Section 3 */
+    .ms3 > h3 {font-size: 20px;}
+    .ms3 > p {font-size: 15px;}
+
+    #maldives, #indonesia, #srilanka, #north_america, #kashmir, #bangladesh, #bandarban {
+        font-size: 20px;
+        font-weight: 700;
+        width: 100%;
+        height: 200px;
+    }
+
+    .ms3_img_sec_div1, .ms3_img_sec_div2, .ms3_img_sec_div3  {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    /* Main Section 4 */
+    .ms4 > h3 {font-size: 20px;}
+    .ms4 > p {font-size: 14px;}
+    .ms4_card_large_txt {font-size: 20px;}
+    .ms4_card_pera {font-size: 14px;}
+    .md4_row1 {flex-direction: column;}
+    .md4_row2 {flex-direction: column;}
+    .md4_card3 {width: auto;}
+
+    /* Main Section 5 */
+    .ms5 {
+        margin-top: 25px;   
+    }
+
+    .ms5 > h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .ms5 > p {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .ms5_card1 {
+        background-size: initial;
+        background-position: center;
+        border-radius: 16px;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 0px;
+        height: 500px;
+    }
+
+    .ms5_card_div {
+        width: 75%;
+        padding: 24px;
+        margin-bottom: 24px;
+    }
+
+    .ms5_card_div > div {
+        margin-bottom: 0px;
+        gap: 5px;
+    }
+    .ms5_card_div > h3 {
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .ms5_card_div > p {
+        overflow: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    
+    .ms5_card_div > div > div {
+        margin-right: 0px; 
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+    }
+
+    #ms5_card_div_price {font-size: 16px;}
+    .ms5_card_div > button {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 12px 18px;
+    }
+
+    .ms5_card2 {
+        background-size: initial;
+        background-position: center;
+        border-radius: 16px;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 0px;
+        height: 500px;
+    }
+
+    .ms5_card3 {
+        background-size: initial;
+        background-position: center;
+        border-radius: 16px;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 0px;
+        height: 500px;
+    }
+
+    .ms5_button_section {display: none;}
 
 }
